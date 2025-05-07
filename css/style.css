@@ -285,6 +285,7 @@ li {
     display: flex;
     flex-flow: column wrap;
     gap: 5px;
+    margin-bottom: 15px;
 }
 #edu_box {
     display: flex; 
