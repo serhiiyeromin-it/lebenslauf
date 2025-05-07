@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 50px 0px ;
+}
+h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #706c6c;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.resum-container {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+.resum-box {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+.name-candidate {
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+.job-title {
+    font-size: 40px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.name-footer {
+    font-size: 30px;
+    display: flex;
+    gap: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+.border {
+    border: 2px solid #171616;
+    background-color: black;
+}
+.name-container {
+    display: flex;
+    justify-content: space-between;   
+}
+.name-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.address {
+    display: flex;
+    gap: 30px;
+    color: #706c6c;
+}
+.age {
+    display: flex;
+    gap: 30px;
+    color: #706c6c;
+}
+.work-experience {
+    width: 850px;
+}
+.personal-info {
+    width: 450px;
+}
+#zer {
+    text-decoration: none;
+}
+.body-box {
+    display: flex;
+    padding: 30px 0px;
+    position: relative;
+}
+.contacts {
+    text-decoration: none;
+}
+.contact-border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 450px;
+}
+.exp-border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 800px;
+}
+.border-centre {
+    position: absolute;
+    top: 71px;
+    left: 825px;
+    border: 1px solid #1c1c1c;
+    background-color: black;
+    height: 1900px;
+}
+.phone-box {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px 6px 20px;
+    align-items: center;
+}
+.number-phone {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+.email {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.email-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 6px 20px;
+}
+.skype-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 6px 20px;
+}
+.skype {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.telegram-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 6px 20px;
+}
+.telegram {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.viber-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 6px 20px;
+}
+.viber {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.contact-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.exp-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.lang-box {
+    margin-top: 20px;
+}
+.lang-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.lang-border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 450px;
+}
+.lang-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px 6px 10px;
+}
+.name-title {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.answer-name {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+}
+.skills-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.skills-border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 450px;
+}
+.skills-box {
+    margin-top: 20px;  
+}
+.skills-item {
+    font-size: 25px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.skills-item a {
+    text-decoration: none;
+}
+.item-box {
+    padding: 20px 0px 6px 20px;
+}
+.personal-qualities__border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 450px;
+}
+.personal-qualities__title {
+    width: 450px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.personal-qualities__box {
+    margin-top: 20px;   
+}
+#w-info {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#w-info p {
+    font-size: 21px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 25px;
+}
+#w-info li {
+    margin-left: 40px;
+}
+.work-exp {
+    margin-top: 0px;
+}
+.exp-item {
+    font-size: 25px;
+    color: #706c6c;
+    padding: 20px 0px 6px 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.exp-item0 {
+    font-size: 25px;
+    color: #706c6c;
+    padding: 10px 0px 6px 25px;
+    font-family: 'Rubik', sans-serif;
+}
+.exp-item1 {
+    padding: 0px 0px 0px 60px;
+}
+li {
+    font-size: 21px;
+    color: #706c6c;
+    font-family: 'Rubik', sans-serif;
+}
+.education-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.education-border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 800px;
+}
+.education-box {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+}
+#edu_box {
+    display: flex; 
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.edu-item {
+    font-size: 25px;
+    color: #706c6c;
+    padding: 20px 0px 6px 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.edu-item1 {
+    font-size: 21px;
+    color: #706c6c;
+    padding: 10px 0px 2px 25px;
+    font-family: 'Rubik', sans-serif;
+}
+.courses-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.courses-border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 800px;
+}
+.courses-point {
+    font-size: 25px;
+    color: #706c6c;
+    padding: 20px 0px 6px 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.courses-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0px 6px 20px;
+}
+.courses-item img {
+    border: 1px solid black;
+}
+.project-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.project-border {
+    height: 2px;
+    background: linear-gradient(to right, #e4ede4 40%, #161616 60%);
+    width: 450px;
+}
+.project-links {
+    font-size: 25px;
+    color: #706c6c;
+    padding: 20px 0px 6px 20px;
+    font-family: 'Rubik', sans-serif;
+}
