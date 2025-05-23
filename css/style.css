@@ -61,7 +61,7 @@ h3 {
     justify-content: space-between;   
 }
 .name-box {
-    width: 900px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
