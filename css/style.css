@@ -17,7 +17,7 @@ h2 {
 }
 h3 {
     font-family: 'Rubik', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #706c6c;
     margin-left: 10px;
     margin-top: 5px;
@@ -25,7 +25,7 @@ h3 {
     text-decoration: none;
 }
 h3 .qual {
-    font-size: 30px;
+    font-size: 25px;
 }
 .resum-container {
     max-width: 1500px;
