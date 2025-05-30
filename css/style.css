@@ -278,6 +278,12 @@ h3 .qual {
     padding: 10px 0px 6px 25px;
     font-family: 'Rubik', sans-serif;
 }
+#item0 {
+    padding: 10px 0px 6px 20px;
+}
+#item01 {
+    padding: 10px 0px 6px 20px;
+}
 .exp-item1 {
     padding: 0px 0px 0px 60px;
 }
