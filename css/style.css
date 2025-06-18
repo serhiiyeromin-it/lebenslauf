@@ -114,6 +114,11 @@ h3 .qual {
     background-color: black;
     height: 1900px;
 }
+@media (max-width: 626px) {
+    .border-centre {
+        height: 2500px;
+    }
+}
 .phone-box {
     display: flex;
     gap: 20px;
