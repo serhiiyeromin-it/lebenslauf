@@ -115,7 +115,7 @@ h3 .qual {
     left: 825px;
     border: 1px solid #1c1c1c;
     background-color: black;
-    height: 2020px;
+    height: 1960px;
 }
 .phone-box {
     display: flex;
@@ -184,7 +184,7 @@ h3 .qual {
     font-family: 'Rubik', sans-serif;
 }
 .lang-box {
-    margin-top: 20px;
+    margin-top: 12px;
 }
 .lang-title {
     font-size: 35px;
