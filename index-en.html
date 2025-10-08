@@ -202,6 +202,70 @@
                 </div>
             </div>
             <div class="border"></div>
+            <!-- Language toggle button -->
+                <button id="langToggle" title="Switch Language"></button>
+
+                <style>
+                    /* --- Toggle button styling --- */
+                    #langToggle {
+                        position: fixed;
+                        top: 20px;
+                        /* можно изменить на center: top: 50%; left: 50% и добавить transform */
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 25px;
+                        height: 25px;
+                        background: transparent;
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        border-radius: 50%;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+                        opacity: 0.2;
+                        /* едва видна */
+                    }
+
+                    /* При наведении слегка подсвечивается */
+                    #langToggle:hover {
+                        border-color: rgba(0, 255, 150, 0.7);
+                        opacity: 0.8;
+                        box-shadow: 0 0 8px rgba(0, 255, 150, 0.5);
+                    }
+
+                    /* Маленький светящийся индикатор внутри */
+                    #langToggle::after {
+                        content: "";
+                        display: block;
+                        width: 8px;
+                        height: 8px;
+                        margin: 7px auto;
+                        border-radius: 50%;
+                        background-color: rgba(0, 255, 150, 0.4);
+                        transition: background-color 0.3s ease;
+                    }
+
+                    /* Когда активен английский — другой цвет */
+                    #langToggle.active::after {
+                        background-color: rgba(255, 255, 255, 0.7);
+                    }
+                </style>
+
+                <script>
+                    const btn = document.getElementById("langToggle");
+
+                    // Определяем язык страницы по URL
+                    let isEnglish = window.location.href.includes("index-en");
+
+                    // Отображаем текущий статус визуально
+                    if (isEnglish) btn.classList.add("active");
+
+                    btn.addEventListener("click", () => {
+                        if (isEnglish) {
+                            window.location.href = "index.html"; // Deutsch
+                        } else {
+                            window.location.href = "index-en.html"; // English
+                        }
+                    });
+                </script>
         </div>
     </div>
 </body>
