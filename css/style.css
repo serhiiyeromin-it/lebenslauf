@@ -338,13 +338,13 @@ li {
 .edu-item {
     font-size: 25px;
     color: #706c6c;
-    padding: 20px 0px 6px 10px;
+    padding: 20px 0px 6px 0px;
     font-family: 'Rubik', sans-serif;
 }
 .edu-item1 {
     font-size: 25px;
     color: #706c6c;
-    padding: 10px 0px 2px 25px;
+    padding: 10px 0px 2px 0px;
     font-family: 'Rubik', sans-serif;
 }
 .courses-title {
