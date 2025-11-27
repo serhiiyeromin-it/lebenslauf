@@ -236,7 +236,7 @@ h3 .qual {
     text-decoration: none;
 }
 .item-box {
-    padding: 20px 0px 6px 20px;
+    padding: 20px 0px 6px 0px;
 }
 .personal-qualities__border {
     height: 2px;
@@ -264,7 +264,7 @@ h3 .qual {
     /*margin-left: 25px;*/
 }
 #w-info li {
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .work-exp {
     margin-top: 0px;
@@ -282,16 +282,16 @@ h3 .qual {
     font-family: 'Rubik', sans-serif;
 }
 #item2 {
-    padding: 10px 0px 6px 20px;
+    padding: 10px 0px 6px 0px;
 }
 #item21 {
-    padding: 0px 0px 0px 55px;
+    padding: 0px 0px 0px 25px;
 }
 #item0 {
-    padding: 10px 0px 6px 20px;
+    padding: 10px 0px 6px 0px;
 }
 #item01 {
-    padding: 10px 0px 6px 20px;
+    padding: 10px 0px 6px 0px;
 }
 #item02 {
     padding: 10px 0px 6px 20px;
@@ -300,10 +300,10 @@ h3 .qual {
     padding: 0px 0px 0px 55px;
 }
 #item12 {
-    padding: 0px 0px 0px 55px;
+    padding: 0px 0px 0px 25px;
 }
 .exp-item1 {
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 25px;
 }
 li {
     font-size: 25px;
