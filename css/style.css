@@ -264,7 +264,7 @@ h3 .qual {
     /*margin-left: 25px;*/
 }
 #w-info li {
-    margin-left: 0px;
+    margin-left: 10px;
 }
 .work-exp {
     margin-top: 0px;
@@ -303,7 +303,7 @@ h3 .qual {
     padding: 0px 0px 0px 55px;
 }
 .exp-item1 {
-    padding: 0px 0px 0px 60px;
+    padding: 0px 0px 0px 10px;
 }
 li {
     font-size: 25px;
