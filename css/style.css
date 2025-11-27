@@ -120,7 +120,7 @@ h3 .qual {
 .phone-box {
     display: flex;
     gap: 20px;
-    padding: 5px 0px 6px 20px;
+    padding: 5px 0px 6px 0px;
     align-items: center;
 }
 .number-phone {
@@ -138,13 +138,13 @@ h3 .qual {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 5px 0px 6px 20px;
+    padding: 5px 0px 6px 0px;
 }
 .skype-box {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 5px 0px 6px 20px;
+    padding: 5px 0px 6px 0px;
 }
 .skype {
     font-size: 25px;
@@ -155,7 +155,7 @@ h3 .qual {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 5px 0px 6px 20px;
+    padding: 5px 0px 6px 0px;
 }
 .telegram {
     font-size: 25px;
@@ -166,7 +166,7 @@ h3 .qual {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 5px 0px 6px 20px;
+    padding: 5px 0px 6px 0px;
 }
 .viber {
     font-size: 25px;
@@ -200,7 +200,7 @@ h3 .qual {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 5px 0px 1px 20px;
+    padding: 5px 0px 1px 0px;
 }
 .name-title {
     font-size: 25px;
