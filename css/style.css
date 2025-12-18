@@ -225,7 +225,7 @@ h3 .qual {
     width: 450px;
 }
 .skills-box {
-    margin-top: 5px;  
+    margin-top: 20px;  
 }
 .skills-item {
     font-size: 25px;
@@ -239,7 +239,7 @@ h3 .qual {
     margin-left: 25px;
 }
 .item-box {
-    padding: 20px 0px 6px 0px;
+    padding: 10px 0px 6px 0px;
 }
 .personal-qualities__border {
     height: 2px;
